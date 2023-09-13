@@ -1,0 +1,52 @@
+You have a football field that is 92 meter long and 48.8 meter wide. Find out total area using python and print it.
+
+You bought 9 packets of potato chips from a store. Each packet costs 1.49 dollar and you gave shopkeeper 20 dollar. Find out using python, how many dollars is the shopkeeper going to give you back?
+
+You want to replace tiles in your bathroom which is exactly square and 5.5 feet is its length. If tiles cost 500 rs per square feet, how much will be the total cost to replace all tiles. 
+
+Calculate and print the cost using Python (Hint: Use power operator ** to find area of a square)
+Print binary representation of number 17 
+
+
+length=92
+width=48.8
+
+print("total football area feild is:", length+width)
+
+# Number of packets of potato chips
+packets = 9
+
+# Cost per packet
+cost_per_packet = 1.49
+
+# Total cost
+total_cost = packets * cost_per_packet
+
+# Amount you gave to the shopkeeper
+amount_given = 20.0
+
+# Calculate the change
+change = amount_given - total_cost
+
+# Print the change
+print("The shopkeeper is going to give you $", change, "in change.")
+
+
+# Length of one side of the square bathroom in feet
+side_length = 5.5
+
+# Cost per square foot of the tiles in rupees
+cost_per_square_foot = 500
+
+# Calculate the area of the square bathroom using the power operator **
+area = side_length ** 2
+
+# Calculate the total cost
+total_cost = area * cost_per_square_foot
+
+# Print the total cost
+print("The total cost to replace all tiles is", total_cost, "rupees.")
+
+
+num=17
+print('Binary of number 17 is:',format(num,'b'))
